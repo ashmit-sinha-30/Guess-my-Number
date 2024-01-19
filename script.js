@@ -24,6 +24,9 @@ document.querySelector('.check').addEventListener('click', function () {
         }else{
             document.querySelector('.message').textContent = '💥 You lost the game!';
             document.querySelector('.score').textContent = 0;
+            document.querySelector('body').style.backgroundColor = '#d02222';
+            document.querySelector('.num1').style.backgroundColor = '#d02222';
+            document.querySelector('.guess').textContent = secretNumber;
         }
     }
     document.querySelector('.again').addEventListener('click',function(){
