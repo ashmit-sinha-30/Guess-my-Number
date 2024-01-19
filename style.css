@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 header{
@@ -15,7 +16,6 @@ header{
 body{
     background-color: #222;
     color: white;
-    font-family: 'Press Start 2P', sans-serif;
 }
 
 .GMN{
@@ -42,7 +42,6 @@ body{
 }
 
 .btn{
-    font-family: 'Press Start 2P', sans-serif;
     height: 4rem;
     width: 12rem;
     font-size: 1.4rem;
@@ -69,6 +68,10 @@ body{
     width: 16rem;
     height: 7rem;
     margin-bottom: 2rem;
+    color: #eee;
+    font-size: 4rem;
+    text-align: center;
+
 }
 
 .left {
